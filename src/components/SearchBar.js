@@ -2,7 +2,7 @@ import React from 'react';
 
 class SearchBar extends React.Component{
 
-    state= { term: ''};
+    state= { term: 'Constellation'};
 
     onFormSubmit = event => {
         event.preventDefault();
